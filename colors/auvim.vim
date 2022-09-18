@@ -1,3 +1,7 @@
+" Vim color file
+" auvim
+" Created by a with ThemeCreator (https://github.com/mswift42/themecreator)
+
 hi clear
 
 if exists("syntax on")
@@ -5,26 +9,26 @@ syntax reset
 endif
 
 set t_Co=256
-let g:colors_name = "black"
+let g:colors_name = "auvim"
 
 
 " Define reusable colorvariables.
-let s:bg="#2D1F40"
-let s:fg="#F2E2DC"
-let s:fg2="#dfd0ca"
-let s:fg3="#cbbeb9"
-let s:fg4="#b8aca7"
-let s:bg2="#3e314f"
-let s:bg3="#4f435f"
-let s:bg4="#5f556e"
-let s:keyword="#F2695C"
-let s:builtin="#A64456"
-let s:const= "#b79c94"
-let s:comment="#856c60"
-let s:func="#A64456"
-let s:str="#eae092"
-let s:type="#F2695C"
-let s:var="#ff8cae"
+let s:bg="#2c000f"
+let s:fg="#ffecc7"
+let s:fg2="#ebd9b7"
+let s:fg3="#d6c6a7"
+let s:fg4="#c2b397"
+let s:bg2="#3d1422"
+let s:bg3="#4e2935"
+let s:bg4="#5f3d49"
+let s:keyword="#d66666"
+let s:builtin="#e3e1dc"
+let s:const= "#e8d2b3"
+let s:comment="#897474"
+let s:func="#d49689"
+let s:str="#89d47a"
+let s:type="#e7b230"
+let s:var="#d49689"
 let s:warning="#ff0000"
 let s:warning2="#ff8800"
 

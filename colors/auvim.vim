@@ -29,7 +29,7 @@ let s:func="#d49689"
 let s:str="#89d47a"
 let s:type="#e7b230"
 let s:var="#d49689"
-let s:signcolor="#300010"
+let s:signcolor="#400116"
 let s:warning="#ff0000"
 let s:warning2="#ff8800"
 

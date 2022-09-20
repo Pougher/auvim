@@ -29,6 +29,7 @@ let s:func="#d49689"
 let s:str="#89d47a"
 let s:type="#e7b230"
 let s:var="#d49689"
+let s:signcolor="#300010"
 let s:warning="#ff0000"
 let s:warning2="#ff8800"
 
@@ -49,6 +50,7 @@ exe 'hi Search   gui=underline'
 exe 'hi Directory guifg='s:const
 exe 'hi Folded guifg='s:fg4' guibg='s:bg
 exe 'hi WildMenu guifg='s:str' guibg='s:bg
+exe 'hi SignColumn guibg='s:signcolor
 
 exe 'hi Boolean guifg='s:const
 exe 'hi Character guifg='s:const

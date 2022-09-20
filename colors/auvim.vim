@@ -150,5 +150,5 @@ exe 'hi htmlSpecialTagName guifg='s:keyword
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:builtin
 
-
-
+" Remove end of file tilde
+exe 'set fillchars=eob:\ '

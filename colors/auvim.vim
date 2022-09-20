@@ -70,7 +70,7 @@ exe 'hi Function guifg='s:func
 exe 'hi Identifier guifg='s:type'  gui=italic'
 exe 'hi Keyword guifg='s:keyword'  gui=bold'
 exe 'hi Label guifg='s:var
-exe 'hi NonText guifg='s:bg4' guibg='s:bg2
+exe 'hi NonText guifg='s:bg4' guibg='s:bg
 exe 'hi Number guifg='s:const
 exe 'hi Operator guifg='s:keyword
 exe 'hi PreProc guifg='s:keyword

@@ -39,7 +39,6 @@ exe 'hi CursorLineNr guifg='s:fg' guibg='s:signcolor
 exe 'hi LineNr guifg='s:func' guibg='s:signcolor
 exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
-exe 'hi LineNr guifg='s:fg2' guibg='s:bg2
 exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
 exe 'hi MatchParen guifg='s:warning2'  gui=underline'
 exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'

@@ -35,6 +35,7 @@ let s:warning2="#ff8800"
 
 exe 'hi Normal guifg='s:fg' guibg='s:bg
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
+exe 'hi CursorLine guibg='s:bg2
 exe 'hi CursorLineNr guifg='s:fg' guibg='s:signcolor
 exe 'hi LineNr guifg='s:func' guibg='s:signcolor
 exe 'hi CursorColumn  guibg='s:bg2

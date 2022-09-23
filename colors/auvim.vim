@@ -33,12 +33,10 @@ let s:signcolor="#400116"
 let s:warning="#ff0000"
 let s:warning2="#ff8800"
 
-exe 'hi CursorLineNr guifg='s:fg' guibg='s:signcolor
-exe 'hi LineNr guifg='s:func' guibg='s:signcolor
 exe 'hi Normal guifg='s:fg' guibg='s:bg
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
-exe 'hi CursorLine  guibg='s:bg2
-exe 'hi CursorLineNr guifg='s:str' guibg='s:bg
+exe 'hi CursorLineNr guifg='s:fg' guibg='s:signcolor
+exe 'hi LineNr guifg='s:func' guibg='s:signcolor
 exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
 exe 'hi LineNr guifg='s:fg2' guibg='s:bg2
